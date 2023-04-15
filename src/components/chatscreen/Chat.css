@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Screen{
+ 
+  position: absolute;
+  left: 448px;
+  top: 91px;
+  width: 894px;
+  height: 62.313rem;
+  background-color: white;
+  
+  overflow: scroll;
+
+
+  
+}
+.Chat{
+  
+ 
+}
+
+element.style {
+}
+ul {
+    display: flex;
+    width: 100%;
+   
+    flex-direction: column;
+    align-items: flex-end;
+    color: black;
+    list-style-type: none;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+}
+.chatbubble{
+  
+  flex-direction: row-reverse;
+  background-color: #F1FF9D;
+  max-width: 500px;
+  text-align: left;
+  margin-right: 50px !important;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px 0px 10px 10px;
+}
+.chatbubblesender{
+  
+  flex-direction: row;
+  left: 0% !important;
+  background-color: #F9F9F9;
+  max-width: fit-content;
+  text-align: left;
+  margin-right: 350px !important;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px 0px 10px 10px;
+}
+.input{
+  background-color: #F2F4F5 !important;
+  position: absolute;
+  border: 0px;
+  width: 895px;
+  height: 65px;
+  padding-left: 20px;
+  left: 446px;
+  font-size: 18px;
+  top: 67.938rem !important;
+  overflow: hidden;
+}
+.below-input{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #909090;
+  background-color: #F2F4F5;
+  position: absolute;
+  border: 0px;
+  width: 895px;
+  height: 65px;
+  top:72rem !important;
+  left: 446px;
+}
+.Users{
+    background-color: rgb(146, 108, 46);
+    width: 100px;
+    color: white;
+    
+}
+.below-input-text{
+  left: 95px;
+  position: absolute;
+  top: 19px;
+
+}
+.attachment{
+  left: 64px;
+  position: absolute;
+  top: 19px;
+}
+.gif{
+  top: 21px;
+  left: 22px;
+  position: absolute;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
